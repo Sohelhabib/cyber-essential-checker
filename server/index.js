@@ -8,7 +8,14 @@ import stripeRoutes from "./routes/stripe.js";
 dotenv.config();
 const app = express();
 
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://cybermark-olive.vercel.app",
+    "https://cybermark-git-main-sohelhabibs-projects.vercel.app",
+    "https://cybermark-7ckov77gx-sohelhabibs-projects.vercel.app"
+  ]
+}));
 app.use(express.json());
 
 app.use("/api/assess", assessRoutes);
