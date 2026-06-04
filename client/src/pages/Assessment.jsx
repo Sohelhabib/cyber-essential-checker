@@ -27,7 +27,7 @@ function Assessment() {
     try {
       const email = localStorage.getItem("ce_email") || "anonymous@test.com";
       const companyName = localStorage.getItem("ce_company") || "";
-      const res = await axios.post("http://localhost:4000/api/assess", {
+      const res = await axios.post("https://cybermark-server.onrender.com/api/assess", {
         email, companyName, answers: finalAnswers,
       });
       localStorage.setItem("ce_results", JSON.stringify(res.data));
