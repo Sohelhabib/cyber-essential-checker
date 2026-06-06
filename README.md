@@ -16,7 +16,8 @@
 
 | Landing Page | Assessment | Results |
 |---|---|---|
-| ![Landing](https://via.placeholder.com/250x150/0a0f1e/0ea5e9?text=Landing) | ![Assessment](https://via.placeholder.com/250x150/0a0f1e/0ea5e9?text=Assessment) | ![Results](https://via.placeholder.com/250x150/0a0f1e/0ea5e9?text=Results) |
+| ![Landing](<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/04cca29b-58a5-49b0-b267-7c4f8f9e7655" />
+) | ![Assessment](https://via.placeholder.com/250x150/0a0f1e/0ea5e9?text=Assessment) | ![Results](https://via.placeholder.com/250x150/0a0f1e/0ea5e9?text=Results) |
 
 ---
 
