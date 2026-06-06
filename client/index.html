@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="background:#0a0f1e;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0ea5e9" />
+    <meta name="theme-color" content="#0a0f1e" />
     <meta name="description" content="Free Cyber Essentials readiness checker for UK SMEs" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -11,9 +11,18 @@
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/icon-192.png" />
     <title>CyberMark — Cyber Essentials Checker</title>
+    <style>
+      html, body, #root {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #0a0f1e !important;
+      }
+    </style>
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="background:#0a0f1e; margin:0; padding:0;">
+    <div id="root" style="background:#0a0f1e; min-height:100vh;"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

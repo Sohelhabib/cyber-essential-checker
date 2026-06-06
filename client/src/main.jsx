@@ -3,6 +3,10 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 
+document.documentElement.style.background = "#0a0f1e";
+document.body.style.background = "#0a0f1e";
+document.body.style.margin = "0";
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
