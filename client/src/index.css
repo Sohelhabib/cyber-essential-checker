@@ -6,16 +6,8 @@
 
 html, body, #root {
   width: 100%;
-  min-height: 100vh;
-  min-height: 100dvh;
-  overflow-x: hidden;
-}
-
-body {
+  height: 100%;
   background: #0a0f1e;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 @keyframes pulse {
@@ -25,17 +17,7 @@ body {
 
 @keyframes scan {
   0% { top: 0; }
-  100% { top: 100vh; }
-}
-
-@keyframes float1 {
-  0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(30px, -30px); }
-}
-
-@keyframes float2 {
-  0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(-20px, 20px); }
+  100% { top: 100%; }
 }
 
 @keyframes spin {
@@ -43,58 +25,4 @@ body {
   100% { transform: rotate(360deg); }
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(14,165,233,0.3); }
-  50% { box-shadow: 0 0 40px rgba(14,165,233,0.6); }
-}
-
-input::placeholder {
-  color: #4a7fa5;
-}
-
-input:focus {
-  border-color: #0ea5e9 !important;
-  box-shadow: 0 0 0 2px rgba(14,165,233,0.15);
-}
-
-button:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-  transition: all 0.2s ease;
-}
-
-button:active {
-  transform: translateY(0px);
-}
-
-::-webkit-scrollbar {
-  width: 4px;
-}
-
-::-webkit-scrollbar-track {
-  background: #0a0f1e;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #1e2d4a;
-  border-radius: 99px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #0ea5e9;
-}
-
-::selection {
-  background: rgba(14,165,233,0.3);
-  color: #f0f6ff;
-}
+input::placeholder { color: #4a7fa5; }

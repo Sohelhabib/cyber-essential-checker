@@ -4,6 +4,7 @@ import Assessment from "./pages/Assessment";
 import Results from "./pages/Results";
 
 function App() {
+  document.body.style.background = "#0a0f1e";
   return (
     <BrowserRouter>
       <Routes>
