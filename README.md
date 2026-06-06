@@ -12,15 +12,6 @@
 
 ---
 
-## 📸 Screenshots
-
-| Landing Page | Assessment | Results |
-|---|---|---|
-| ![Landing](<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/04cca29b-58a5-49b0-b267-7c4f8f9e7655" />
-) | ![Assessment](<img width="838" height="487" alt="image" src="https://github.com/user-attachments/assets/e4f04b22-c24c-4691-a85a-a0b87cb99c95" />
-) | ![Results](https://via.placeholder.com/250x150/0a0f1e/0ea5e9?text=Results) |
-
----
 
 ## ✨ Features
 
